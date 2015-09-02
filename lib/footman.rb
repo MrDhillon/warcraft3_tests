@@ -11,13 +11,14 @@ class Footman < Unit
     @attack_power = attack_power
   end
 
-  def attack!(enemy)
-    enemy.damage(@attack_power)
-  end
 
-  def damage(att_power_specified)
-    @health_points -= att_power_specified
-  end
+  # def attack!(enemy)
+  #   enemy.damage(@attack_power)
+  # end
+
+  # def damage(att_power_specified)
+  #   @health_points -= att_power_specified
+  # end
 
 
   # def self.health_points(health)
